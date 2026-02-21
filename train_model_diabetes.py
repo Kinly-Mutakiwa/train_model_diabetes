@@ -1,6 +1,6 @@
 import pandas as pd 
 
-d1=pd.read_csv('Diabetes.csv')
+d1=pd.read_csv('diabetes.csv')
 
 d2=d1.loc[(d1['Glucose']!=0) & (d1['BloodPressure']!=0) & 
            (d1['SkinThickness']!=0) & (d1['Insulin']!=0) & (d1['BMI']!=0)]
